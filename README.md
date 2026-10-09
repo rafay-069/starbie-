@@ -21,7 +21,6 @@ An expressive desktop companion robot and PC voice automation assistant housed i
 
 Starbie uses a hybrid architecture: a local **Seeed Studio XIAO ESP32-C3** handles real-time sensor polling, I2S digital audio sampling, and high-framerate OLED facial rendering, while streaming telemetry and voice intents over USB-C to the host computer for Whisper speech recognition and LLM inference.
 
-```mermaid
 flowchart TD
     subgraph Power ["Power Distribution (+3V3 / GND)"]
         USB["USB-C 5V Input"] --> U1["Seeed Studio XIAO ESP32-C3"]
