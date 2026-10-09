@@ -1,6 +1,6 @@
 # Starbie: Yeti J.A.R.V.I.S. Edition
 
-An expressive desktop companion robot and PC voice automation assistant housed inside a custom 3D-printed Yeti figurine, created for the **Hack Club Half-Life** hardware development program[cite: 5, 7].
+An expressive desktop companion robot and PC voice automation assistant housed inside a custom 3D-printed Yeti figurine, designed for the **Hack Club Half-Life** hardware initiative.
 
 ![Board Dimensions](https://img.shields.io/badge/Dimensions-48.0%20mm%20%C3%97%2045.0%20mm-blue)
 ![Layers](https://img.shields.io/badge/Layers-2--Layer%20FR--4-green)
@@ -11,7 +11,7 @@ An expressive desktop companion robot and PC voice automation assistant housed i
 
 ## 3D Render & Board Preview
 
-| 3D Carrier Board & Component Clearance | 2D Routed Copper Layout (0 DRC Errors) |
+| 3D Carrier Board & Clearance | 2D Routed Copper Layout (0 DRC Errors) |
 | :---: | :---: |
 | ![Starbie PCB 3D Render](./docs/pcb_3d_render.png) | ![Starbie PCB 2D Layout](./docs/pcb_layout.png) |
 
@@ -19,7 +19,7 @@ An expressive desktop companion robot and PC voice automation assistant housed i
 
 ## 1. System Architecture
 
-Starbie operates on a dual-tier processing model: a local **Seeed Studio XIAO ESP32-C3** handles real-time sensor polling, I2S digital audio sampling, and high-framerate OLED facial rendering, while streaming telemetry and voice intents over USB-C to a host computer for Whisper speech recognition and LLM inference.
+Starbie uses a hybrid architecture: a local **Seeed Studio XIAO ESP32-C3** handles real-time sensor polling, I2S digital audio sampling, and high-framerate OLED facial rendering, while streaming telemetry and voice intents over USB-C to the host computer for Whisper speech recognition and LLM inference.
 
 ```mermaid
 flowchart TD
@@ -27,7 +27,7 @@ flowchart TD
         USB["USB-C 5V Input"] --> U1["Seeed Studio XIAO ESP32-C3"]
         U1 -->|Regulated 3.3V Rail| BUS3V["+3V3 Power Bus (0.50 mm)"]
         BUS3V --> C1["0.1 µF Decoupling C1"]
-        BUS3V --> J1["0.96\" SSD1306 OLED"]
+        BUS3V --> J1["0.96-inch SSD1306 OLED"]
         BUS3V --> J2["GY-521 MPU-6050 IMU"]
         BUS3V --> J3["DHT11 Climate Sensor"]
         BUS3V --> C2["0.1 µF Decoupling C2"]
@@ -42,7 +42,7 @@ flowchart TD
 
     subgraph I2S ["Digital Audio Capture (I2S)"]
         U1 -- "D8 (GPIO8) / SCK" --> J4
-        U1 -- "D9 (GPIO9) / WS"  --> J4
+        U1 -- "D9 (GPIO9) / WS" --> J4
         U1 -- "D10 (GPIO10) / SD" <-- J4
     end
 
