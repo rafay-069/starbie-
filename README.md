@@ -1,6 +1,6 @@
 # Starbie: Yeti J.A.R.V.I.S. Edition
 
-An expressive desktop companion robot and PC voice automation assistant housed inside a custom 3D-printed Yeti figurine, designed for the **Hack Club Half-Life** hardware initiative.
+An expressive desktop companion robot and PC voice automation assistant housed inside a custom 3D-printed Yeti figurine, designed for the **Hack Club Half-Life** hardware initiative[cite: 5, 7].
 
 ![Board Dimensions](https://img.shields.io/badge/Dimensions-48.0%20mm%20%C3%97%2045.0%20mm-blue)
 ![Layers](https://img.shields.io/badge/Layers-2--Layer%20FR--4-green)
@@ -13,13 +13,14 @@ An expressive desktop companion robot and PC voice automation assistant housed i
 
 | 3D Carrier Board & Clearance | 2D Routed Copper Layout (0 DRC Errors) |
 | :---: | :---: |
-| ![Starbie PCB 3D Render](./docs/pcb_3d_render.png) | ![Starbie PCB 2D Layout](./docs/pcb_layout.png) |
+| ![Starbie PCB 3D Render](./docs/3d.png) | ![Starbie PCB 2D Layout](./docs/2d.png.png) |
 
 ---
 
 ## 1. System Architecture
 
 Starbie uses a hybrid architecture: a local **Seeed Studio XIAO ESP32-C3** handles real-time sensor polling, I2S digital audio sampling, and high-framerate OLED facial rendering, while streaming telemetry and voice intents over USB-C to the host computer for Whisper speech recognition and LLM inference.
+
 
 flowchart TD
     subgraph Power ["Power Distribution (+3V3 / GND)"]
