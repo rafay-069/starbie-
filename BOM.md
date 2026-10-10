@@ -31,7 +31,7 @@
 | [Noel 25W Soldering Iron](https://robu.in) | Soldering headers, buzzer, and passives to board | 1 | $1.20 | $1.20 | [robu](https://robu.in) |
 | [0.5 mm 50g Rosin Core Solder Wire](https://robu.in) | solder wire | 1 | $1.75 | $1.75 | [robu](https://robu.in) |
 | **Parts subtotal** | — | — | — | **$27.30** | — |
-| **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$27.30** | — |
+| **Tax & shipping** | — | — | — | **$2.70** | — |
+| **Total** | — | — | — | **$30.00** | — |
 
-$2.70 left of the tier's funding.
+$0.00 left of the tier's funding.
