@@ -1,6 +1,6 @@
 # Starbie 
 
-A chunky, 3D-printed Yeti desktop companion robot powered by an ESP32-C3 microcontroller, featuring interactive animations, environmental monitoring, voice response, and an I2S audio amplifier setup.
+A 3D-printed Yeti desktop companion robot powered by an ESP32-C3 microcontroller, featuring interactive animations, environmental monitoring, voice response, and an I2S audio amplifier setup i was inspired by jarvis from ironman so instead of making it simple starie i made changes i wanted to be more creative 
 
 ## Hardware Components
 - Seeed Studio XIAO ESP32-C3
