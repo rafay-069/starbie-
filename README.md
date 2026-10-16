@@ -11,6 +11,7 @@ A 3D-printed Yeti desktop companion robot powered by an ESP32-C3 microcontroller
 - INMP441 MEMS I2S Microphone
 - DHT11 Temperature & Humidity Sensor
 - 3.7V 500mAh 1S LiPo Battery
+<img width="667" height="585" alt="Screenshot 2026-10-10 215116" src="https://github.com/user-attachments/assets/4be15831-2f63-44eb-b816-3276f5a94a47" />
 
 ## Repository Structure
 - `bom.csv`: Bill of Materials for grant verification
