@@ -35,6 +35,8 @@ A 3D-printed Yeti desktop companion robot powered by an ESP32-C3 microcontroller
 ### Schematic
 <img width="592" height="537" alt="Screenshot 2026-10-19 130543" src="https://github.com/user-attachments/assets/a9173b81-e6e8-43bd-b09f-8bfdadb0440d" />
 
+I HAVE A BUZZER THATS WHY I DIDNT ADD IT IN BOM AND ALSO I WILL BE USING SPEAKERS MAINLY 
+
 
 ## Repository Structure
 - `bom.csv`: Bill of Materials for grant verification
