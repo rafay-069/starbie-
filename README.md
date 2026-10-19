@@ -14,7 +14,7 @@ A 3D-printed Yeti desktop companion robot powered by an ESP32-C3 microcontroller
 - ## MY CIRCUIT 
 <img width="667" height="585" alt="Screenshot 2026-10-10 215116" src="https://github.com/user-attachments/assets/4be15831-2f63-44eb-b816-3276f5a94a47" />
 
-## 📋 Bill of Materials (BOM)
+##  Bill of Materials (BOM)
 
 | # | Component | Specifications / Package | Qty | Function |
 | :-: | :--- | :--- | :-: | :--- |
@@ -34,6 +34,8 @@ A 3D-printed Yeti desktop companion robot powered by an ESP32-C3 microcontroller
 
 ### Schematic
 <img width="592" height="537" alt="Screenshot 2026-10-19 130543" src="https://github.com/user-attachments/assets/a9173b81-e6e8-43bd-b09f-8bfdadb0440d" />
+<img width="1035" height="482" alt="Screenshot 2026-10-19 142150" src="https://github.com/user-attachments/assets/332fc0ec-5f6d-4258-be93-f8e05c80058b" />
+
 
 I HAVE A BUZZER THATS WHY I DIDNT ADD IT IN BOM AND ALSO I WILL BE USING SPEAKERS MAINLY 
 
