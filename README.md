@@ -31,8 +31,8 @@ A 3D-printed Yeti desktop companion robot powered by an ESP32-C3 microcontroller
 | **9** | **1×40 Pin 2.54 mm Male Header Strip** | Breakaway pins for module mounting | 1 | $0.15 | $0.15 | [Robu.in](https://robu.in/product/1x40-pin-2-54-pitch-male-berg-strip/) |
 | **10** | **SmartElex MAX98357A I2S Amplifier** | 3W Class-D digital amplifier for voice output | 1 | $2.00 | $2.00 | [Robu.in](https://robu.in/product/smartelex-i2s-audio-breakout-max98357a/) |
 | **11** | **INGHAi 30mm 8Ω 0.5W Mini Speaker** | Compact speaker for sound effects & chirps | 1 | $2.00 | $2.00 | [Robu.in](https://robu.in/product/gspk3005tn-8r0-5w-inghai-d30h5-0mm-round-8-ohm-0-5w-85-3db/) |
-| — | **Taxes & Shipping** | Estimated shipping and handling | — | — | $2.70 | Robu.in |
-| — | **Total Project Cost** | **Tier 1 Grant Funding Budget** | — | — | **$24.05** | — |
+| — | **Taxes & Shipping** | Estimated shipping and handling | — | — | $5.90 | Robu.in |
+| — | **Total Project Cost** | **Tier 1 Grant Funding Budget** | — | — | **$29.05** | — |
 ---
 
 ## ⚡ Circuit & PCB Design
