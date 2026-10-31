@@ -16,18 +16,23 @@ A 3D-printed Yeti desktop companion robot powered by an ESP32-C3 microcontroller
 
 ##  Bill of Materials (BOM)
 
-| # | Component | Specifications / Package | Qty | Function |
-| :-: | :--- | :--- | :-: | :--- |
-| 1 | **Seeed Studio XIAO ESP32-C3** | RISC-V SoC, Wi-Fi & BLE | 1 | Main Microcontroller |
-| 2 | **0.96" I2C OLED Display** | 128×64, SSD1306 Driver | 1 | Face / Expressions Display |
-| 3 | **GY-521 MPU-6050** | 6-DOF IMU (I2C) | 1 | Motion & Gesture Sensing |
-| 4 | **SmartElex MAX98357A** | I2S Audio Amplifier Breakout | 1 | Sound & Voice Output Amp |
-| 5 | **Mini Speaker** | 30mm, 8Ω, 0.5W | 1 | Audio & Voice Speaker |
-| 6 | **INMP441 MEMS Microphone** | I2S Omnidirectional Mic | 1 | Voice Input / Command Capture |
-| 7 | **DHT11 Sensor** | 3-Pin / 4-Pin Module | 1 | Temperature & Humidity Sensing |
-| 8 | **1S LiPo Battery** | 3.7V, 500mAh | 1 | Internal Portable Power |
-| 9 | **Starbie Carrier PCB** | Custom 2-Layer FR4 | 1 | Main Component Carrier Board |
+## Bill of Materials (BOM)
 
+| # | Component | Description / Function | Qty | Unit Price | Total | Vendor |
+| :-: | :--- | :--- | :-: | :-: | :-: | :--- |
+| **1** | **Seeed Studio XIAO ESP32–C3** | Main MCU running logic, Wi-Fi & BLE | 1 | $6.80 | $6.80 | [Robu.in](https://robu.in/product/seeed-studio-xiao-esp32c3-tiny-mcu-board-with-wi-fi-and-ble-battery-charge-supported-power-efficiency-and-rich-interface/) |
+| **2** | **0.96" I2C OLED Display (SSD1306)** | 128×64 screen for animated face & UI | 1 | $2.00 | $2.00 | [Robu.in](https://robu.in/product/0-96-inch-i2c-iic-4pin-oled-display-module-black/) |
+| **3** | **GY-521 MPU-6050 6-DOF IMU** | 3-axis gyro + accelerometer for motion detection | 1 | $1.60 | $1.60 | [Robu.in](https://robu.in/product/mpu-6050-gyro-sensor-2-accelerometer/) |
+| **4** | **DHT11 Sensor Module (3-pin)** | Temperature and humidity sensing | 1 | $1.00 | $1.00 | [Robu.in](https://robu.in/product/dht11-digital-relative-humidity-temperature-sensor-module/) |
+| **5** | **6×6×5mm Tactile Buttons (5-pack)** | Physical buttons for feeding & menu action | 1 | $0.30 | $0.30 | [Robu.in](https://robu.in/product/6x6x5mm-tactile-push-button-switch/) |
+| **6** | **INMP441 MEMS I2S Microphone** | Digital audio capture for sound/voice commands | 1 | $1.80 | $1.80 | [Robu.in](https://robu.in/product/inmp441-mems-high-precision-omnidirectional-microphone-module-i2s/) |
+| **7** | **3.7V 500mAh 1S LiPo Battery** | PCM protected cordless power pack | 1 | $3.50 | $3.50 | [Robu.in](https://robu.in/product/500mah-pcm-protected-micro-li-po-battery/) |
+| **8** | **0805 SMD 0.1 µF Ceramic Capacitors** | Rail decoupling filters for MCU & mic (10-pack) | 1 | $0.20 | $0.20 | [Robu.in](https://robu.in/product/100nf-0805-surface-mount-multilayer-ceramic-capacitor-pack-of-40/) |
+| **9** | **1×40 Pin 2.54 mm Male Header Strip** | Breakaway pins for module mounting | 1 | $0.15 | $0.15 | [Robu.in](https://robu.in/product/1x40-pin-2-54-pitch-male-berg-strip/) |
+| **10** | **SmartElex MAX98357A I2S Amplifier** | 3W Class-D digital amplifier for voice output | 1 | $2.00 | $2.00 | [Robu.in](https://robu.in/product/smartelex-i2s-audio-breakout-max98357a/) |
+| **11** | **INGHAi 30mm 8Ω 0.5W Mini Speaker** | Compact speaker for sound effects & chirps | 1 | $2.00 | $2.00 | [Robu.in](https://robu.in/product/gspk3005tn-8r0-5w-inghai-d30h5-0mm-round-8-ohm-0-5w-85-3db/) |
+| — | **Taxes & Shipping** | Estimated shipping and handling | — | — | $2.70 | Robu.in |
+| — | **Total Project Cost** | **Tier 1 Grant Funding Budget** | — | — | **$24.05** | — |
 ---
 
 ## ⚡ Circuit & PCB Design
